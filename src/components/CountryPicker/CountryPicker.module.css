@@ -1,0 +1,18 @@
+/* .formContrking{
+  margin: 0 auto !important;
+} */
+
+.formControl {
+  width: 50%;
+  margin-bottom: 30px !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #333;
+  text-align:center;
+  }
+
+  @media only screen and (max-width: 770px) {
+    .formControl {
+      width: 65%;
+      }
+  }
